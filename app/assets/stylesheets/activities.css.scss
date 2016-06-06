@@ -1,0 +1,27 @@
+// Place all the styles related to the activities controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.person_status {
+  padding-left: 0px;
+  margin-left: 5px;
+}
+
+.timey {
+  display: inline;
+  font-size: 12px;
+  padding-top: 2px;
+  margin-left: -10px;
+}
+.timey > a {
+    color: grey;
+  }
+
+.timey > a:hover,  .timey > a:focus{
+  color: grey;
+  text-decoration: none;
+}
+
+.new_comment {
+  display: none;
+}
